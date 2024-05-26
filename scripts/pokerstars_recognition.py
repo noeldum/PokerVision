@@ -1,6 +1,6 @@
 import cv2
-from scripts.table_recognition import PokerTableRecognizer
-from scripts.utils import sort_bboxes, thresholding, card_separator, table_part_recognition, \
+from table_recognition import PokerTableRecognizer
+from utils import sort_bboxes, thresholding, card_separator, table_part_recognition, \
     convert_contours_to_bboxes, find_by_template, find_closer_point, read_config_file
 import numpy as np
 
