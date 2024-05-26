@@ -1,5 +1,5 @@
 from tkinter import *
-from scripts.utils import read_config_file
+from utils import read_config_file
 
 cfg = read_config_file()
 root = Tk()
